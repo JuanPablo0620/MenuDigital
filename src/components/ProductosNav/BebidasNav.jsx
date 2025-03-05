@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HamburguesasNav = () => {
+const BebidasNav = () => {
   return (
     <main className='flex flex-col items-center justify-center space-y-2'>
          <div className='shadow-xl w-[70px] h-[70px] bg-red-200  rounded-full flex flex-col items-center justify-center'>
@@ -11,4 +11,4 @@ const HamburguesasNav = () => {
   )
 }
 
-export default HamburguesasNav
+export default BebidasNav
