@@ -6,14 +6,14 @@ const BurguerCard = ({burguer}) => {
 
   return (
     <>
-    <div className='border border-gray-200 flex '>
-        <div className='flex flex-col'>
-           <h1>{name}</h1>
+    <div className='border shadow-md shadow-gray-400 border-gray-200 flex p-3 text-principal font-archivo rounded-2xl'>
+        <div className='flex flex-col gap-1 w-[130%]'>
+           <h1 className='font-bold'>{name}</h1>
            <p>{description}</p>
-           <span>{price}</span> 
+           <span className='text-red-500 font-bold'>${price}</span> 
         </div>
         <div className=''>
-            <img className='w-40' src={image}/>
+            <img className='rounded-2xl' src={image}/>
         </div>
     </div>
     </>

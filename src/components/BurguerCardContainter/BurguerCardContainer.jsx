@@ -14,7 +14,7 @@ const BurguerCardContainer = () => {
   return (
     <>
     <div>
-        <h1>Menú de Hamburguesas</h1>
+        <h1 className='px-2 my-5 font-archivo text-[18px] font-bold text-principal'>Menú</h1>
         <div className='px-2 flex flex-col gap-5'>
             {burguers.map((burguer) =>(
                 <BurguerCard key={burguer.id} burguer={burguer}/>
