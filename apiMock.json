@@ -4,7 +4,7 @@
     "name": "Hamburguesa Clásica",
     "description": "Carne de res, lechuga, tomate, queso y salsa especial.",
     "price": 8.99,
-    "image": "/public/img/hamburguesaClasica.jpg",
+    "image": "/img/hamburguesaClasica.jpg",
     "category": "hamburguesas"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Hamburguesa BBQ",
     "description": "Carne de res, cebolla caramelizada, bacon y salsa BBQ.",
     "price": 9.99,
-    "image": "/public/img/hamburguesaBBQ.jpg",
+    "image": "/img/hamburguesaBBQ.jpg",
     "category": "hamburguesas"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Hamburguesa Vegetariana",
     "description": "Hamburguesa de garbanzos, espinacas y queso de cabra.",
     "price": 7.99,
-    "image": "/public/img/hamburguesaVegetariana.jpg",
+    "image": "/img/hamburguesaVegetariana.jpg",
     "category": "hamburguesas"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Refresco de Cola",
     "description": "Refresco de cola clásico.",
     "price": 2.50,
-    "image": "/public/img/cocacola.jpg",
+    "image": "/img/cocacola.jpg",
     "category": "bebidas sin alcohol"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Limonada",
     "description": "Jugo natural de limón con menta y gengibre.",
     "price": 3.00,
-    "image": "/public/img/limonada.jpg",
+    "image": "/img/limonada.jpg",
     "category": "bebidas sin alcohol"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Agua Mineral",
     "description": "Agua mineral con gas.",
     "price": 1.50,
-    "image": "/public/img/agua.jpg",
+    "image": "/img/agua.jpg",
     "category": "bebidas sin alcohol"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Cerveza Artesanal",
     "description": "Cerveza rubia artesanal.",
     "price": 5.00,
-    "image": "/public/img/cerveza.jpg",
+    "image": "/img/cerveza.jpg",
     "category": "bebidas con alcohol"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Margarita",
     "description": "Cóctel de tequila, triple sec y jugo de limón.",
     "price": 7.50,
-    "image": "/public/img/margarita.jpg",
+    "image": "/img/margarita.jpg",
     "category": "bebidas con alcohol"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Vino Tinto",
     "description": "Vino tinto de la casa.",
     "price": 6.00,
-    "image": "/public/img/vinoTinto.jpg",
+    "image": "/img/vinoTinto.jpg",
     "category": "bebidas con alcohol"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Papas Fritas",
     "description": "Papas fritas crujientes con cheddar y bacon.",
     "price": 4.00,
-    "image": "/public/img/papasFritas.jpg",
+    "image": "/img/papasFritas.jpg",
     "category": "otros"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Alitas de Pollo",
     "description": "Alitas de pollo bañadas en salsa BBQ.",
     "price": 6.50,
-    "image": "/public/img/alitas.jpg",
+    "image": "/img/alitas.jpg",
     "category": "otros"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Nachos con Queso",
     "description": "Nachos cubiertos con queso derretido y jalapeños.",
     "price": 5.50,
-    "image": "/public/img/nachos.jpg",
+    "image": "/img/nachos.jpg",
     "category": "otros"
   }
 ]
