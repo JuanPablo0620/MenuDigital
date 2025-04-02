@@ -5,13 +5,12 @@ const BurguerCardContainer = ({ category }) => {
   const [burguers, setBurguers] = useState([]);
 
   useEffect(() => {
-    fetch('/apiMock.json') // Asegúrate de que este archivo esté en la carpeta "public"
+    fetch('/apiMock.json') 
       .then((response) => response.json())
       .then((data) => setBurguers(data))
       .catch((error) => console.error('Error fetching data:', error));
   }, []);
 
-  // Filtrar los productos según la categoría seleccionada
   const filteredBurguers = burguers.filter((burguer) => burguer.category === category);
 
   return (

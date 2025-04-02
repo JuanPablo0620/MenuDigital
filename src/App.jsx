@@ -7,15 +7,15 @@ import { useState } from 'react';
 import Buscador from './components/Buscador/Buscador';
 
 function App() {
-  const [category, setCategory] = useState('hamburguesas'); // Estado inicial
+  const [category, setCategory] = useState('hamburguesas'); 
 
   return (
     <>
       <BrowserRouter>
-        <Nav setCategory={setCategory} /> {/* Pasar setCategory al Nav */}
+        <Nav setCategory={setCategory} /> 
         <Buscador />
         <Routes>
-          <Route path="/" element={<BurguerCardContainer category={category} />} /> {/* Pasar categoría */}
+          <Route path="/" element={<BurguerCardContainer category={category} />} /> 
           <Route path="/search/:searchTerm" element={<SearchResults />} />
         </Routes>
       </BrowserRouter>
