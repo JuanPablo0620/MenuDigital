@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Hamburguesa Clásica",
-    "description": "Carne de res, lechuga, tomate, queso y salsa especial.",
+    "description": "Carne de res, lechuga, tomate y queso.",
     "price": 8.99,
     "image": "/img/hamburguesaClasica.jpg",
     "category": "hamburguesas"
@@ -27,7 +27,7 @@
     "id": 4,
     "name": "Refresco de Cola",
     "description": "Refresco de cola clásico.",
-    "price": 2.50,
+    "price": 2.5,
     "image": "/img/cocacola.jpg",
     "category": "bebidas sin alcohol"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "name": "Cerveza Artesanal",
     "description": "Cerveza rubia artesanal.",
-    "price": 5.00,
+    "price": 5.0,
     "image": "/img/cerveza.jpg",
     "category": "bebidas con alcohol"
   },
@@ -74,8 +74,8 @@
   {
     "id": 10,
     "name": "Papas Fritas",
-    "description": "Papas fritas crujientes con cheddar y bacon.",
-    "price": 4.00,
+    "description": "Papas fritas crujientes.",
+    "price": 4.0,
     "image": "/img/papasFritas.jpg",
     "category": "otros"
   },

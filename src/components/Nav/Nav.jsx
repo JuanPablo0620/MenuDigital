@@ -1,13 +1,13 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Nav = ({ setCategory }) => {
+
   return (
-    <>
       <main className='p-2 border-b-gray-300 border-b-1 shadow-md '>
-        <div className='flex overflow-x-auto scrollbar-hide whitespace-nowrap'>
+        <div className='flex'>
           <div className='flex gap-3'>
-            <div onClick={() => setCategory('hamburguesas')}>
+            <div onClick={() => setCategory('hamburguesas')} className='cursor-pointer'>
               <main className='flex flex-col items-center justify-center space-y-2'>
                 <div className='shadow-xl w-[70px] h-[70px] bg-red-200 rounded-full flex flex-col items-center justify-center'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#bd3d3d" viewBox="0 0 256 256">
@@ -17,7 +17,7 @@ const Nav = ({ setCategory }) => {
                 <span className='font-bold text-black text-[13px]'>HAMBURGUESAS</span>
               </main>
             </div>
-            <div onClick={() => setCategory('bebidas sin alcohol')}>
+            <div onClick={() => setCategory('bebidas sin alcohol')} className='cursor-pointer'>
               <main className='flex flex-col items-center justify-center space-y-2'>
                 <div className='shadow-xl w-[70px] h-[70px] bg-red-200 rounded-full flex flex-col items-center justify-center'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#bd3d3d" viewBox="0 0 256 256">
@@ -27,7 +27,7 @@ const Nav = ({ setCategory }) => {
                 <span className='font-bold text-black text-[13px]'>BEBIDAS</span>
               </main>
             </div>
-            <div onClick={() => setCategory('bebidas con alcohol')}>
+            <div onClick={() => setCategory('bebidas con alcohol')} className='cursor-pointer'>
               <main className='flex flex-col items-center justify-center space-y-2'>
                 <div className='shadow-xl w-[70px] h-[70px] bg-red-200 rounded-full flex flex-col items-center justify-center'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#bd3d3d" viewBox="0 0 256 256">
@@ -50,7 +50,6 @@ const Nav = ({ setCategory }) => {
           </div>
         </div>
       </main>
-    </>
   );
 };
 
